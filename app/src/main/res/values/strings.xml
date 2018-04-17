@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">prefmenu</string>
+
+    <string-array name="operators">
+        <item>English (US)</item>
+        <item>English (UK)</item>
+        <item>French (France)</item>
+        <item>Spanish (Spain)</item>
+        <item>Italian</item>
+    </string-array>
+
+    <string-array name="languageAlias">
+        <item>"tata docomo"</item>
+        <item>"airtel"</item>
+        <item>"idea"</item>
+        <item>"jio"</item>
+        <item>"vodafone"</item>
+    </string-array>
+</resources>

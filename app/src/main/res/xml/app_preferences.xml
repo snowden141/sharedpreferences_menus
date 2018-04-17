@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="general">
+
+        <EditTextPreference
+            android:title="device owner"
+            android:key="username"
+            android:defaultValue="mahakal">
+        </EditTextPreference>
+
+        <SwitchPreference
+            android:title="neon theme"
+            android:key="background"
+            android:defaultValue="false">
+        </SwitchPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="advanced">
+
+        <ListPreference
+            android:title="sevice provider"
+            android:key="service"
+            android:entries="@array/operators"
+            android:entryValues="@array/languageAlias"
+            android:defaultValue="tata docomo">
+        </ListPreference>
+
+        <CheckBoxPreference
+            android:title="data sever mode"
+            android:key="data"
+            android:defaultValue="false">
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+</PreferenceScreen>
